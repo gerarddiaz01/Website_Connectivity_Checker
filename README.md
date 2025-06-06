@@ -1,4 +1,4 @@
-# Website Connectivity Checker
+# Website Connectivity Checker 🌐
 
 This project is a Python-based GUI application that lets users check whether a website is accessible. Built with tkinter for the user interface and urllib for the connectivity logic, the app includes real-time feedback, validation, and threading for responsiveness.
 
@@ -6,7 +6,7 @@ What makes this project special is not just that it works — but that it explai
 
 ---
 
-## Teaching Perspective (For Beginners)
+## Teaching Perspective (For Beginners) 📚
 
 This project includes an extra markdown file, Explanations.md, that breaks down the logic behind:
    - How threading interacts with the tkinter event loop.
@@ -18,17 +18,7 @@ This project isn’t just something that works — it’s something you can lear
 
 ---
 
-## Project Structure
-Website_Connectivity_Checker/ 
-├── src
-    └──main.py    # Main script for the application 
-├── README.md     # Project documentation
-├── requirements.txt    # Libraries needed to run the code
-└── Explanations.md     # Markdown file to explain about after(), threading and config()
-
----
-
-## How to Run the Application
+## How to Run the Application 🚀
 
 1. Make sure Python 3 is installed (python.org)
 2. Run the following in terminal:
@@ -40,7 +30,7 @@ Website_Connectivity_Checker/
 
 ---
 
-## Features
+## Features ✨
 
 - Input validation: Adds https:// if missing, prevents empty/invalid input
 - Live GUI updates: Keeps UI responsive with threading
@@ -52,7 +42,7 @@ Website_Connectivity_Checker/
 
 ---
 
-## Tools and Strategies Used
+## Tools and Strategies Used 🛠️
 
 1. **`tkinter`**:
    - Used to create the graphical user interface, including labels, buttons, and input fields.
@@ -74,7 +64,7 @@ Website_Connectivity_Checker/
 
 ---
 
-## Challenges Encountered and Solutions
+## Challenges Encountered and Solutions 🧩
 
 1. Threading + GUI Safety
 Problem: Direct widget updates from threads caused crashes.
@@ -94,7 +84,7 @@ Solution: Auto-focused the field at startup.
 
 ---
 
-## What I Learned
+## What I Learned 👨‍🎓
 
 This was one of the first projects where I combined real user interaction with background logic. I learned:
    - How to safely use threads in a GUI.
@@ -106,7 +96,7 @@ This was one of the first projects where I combined real user interaction with b
 
 ---
 
-## Conclusion
+## Conclusion 📝
 
 Building this website checker helped me grow from "knowing Python" to designing applications. It challenged me to understand how threads work with event loops, and how to structure interactive apps without freezing the GUI.
 
